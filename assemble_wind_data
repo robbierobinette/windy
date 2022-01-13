@@ -1,0 +1,3 @@
+#!/bin/bash
+
+gzcat source_data/*.gz | grep -v DATE | gzip > wind_data.csv.gz
